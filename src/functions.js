@@ -41,12 +41,12 @@ export const calcHour = (offset) => {
   return newDate.getHours();
 };
 export const bgGen = (timeOfDay, temperature) => {
-  console.log(timeOfDay, temperature);
   if (temperature > 16 && (timeOfDay > 19 || timeOfDay < 6))
     return "app warm night";
+  if (temperature <= 16 && (timeOfDay > 19 || timeOfDay < 6))
+    return "app cold night";
   if (temperature <= 16 && (timeOfDay < 19 || timeOfDay > 6))
     return "app cold day";
-  if (temperature <= 16 && (timeOfDay > 19 || timeOfDay < 6))
-    return "app cold day";
+
   return "app warm day";
 };
