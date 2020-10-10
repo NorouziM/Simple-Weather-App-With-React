@@ -6,3 +6,103 @@
 body {
   font-family: "montserrat";
 }
+.app {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: 0.4s all ease-out;
+}
+.app.warm.day {
+  background-image: url("./assets/img/clear-day-warm-bg.jpg");
+}
+.app.cold.day {
+  background-image: url("./assets/img/clear-day-cold-bg.jpg");
+}
+.app.warm.night {
+  background-image: url("./assets/img/clear-night-warm-bg.jpg");
+}
+.app.cold.night {
+  background-image: url("./assets/img/clear-night-cold-bg.jpg");
+}
+
+main {
+  padding: 1.6rem;
+}
+.search-box {
+  width: 100%;
+  margin: 0 0 75px;
+  transition: 0.4s all ease-out;
+}
+.search-box .search-bar {
+  outline: none;
+  width: 100%;
+  display: block;
+  padding: 25px;
+  border: none;
+  appearence: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  background-color: #1b1b1bd4;
+  box-shadow: 0px 6px 15px 0px rgb(0 0 0 / 25%);
+}
+.search-box .search-bar:focus {
+  background-color: #000000d6;
+}
+.location-box .location {
+  font-weight: 200;
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 6px 20px #000000b8;
+}
+.location-box .date {
+  font-weight: 300;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+  font-style: italic;
+  text-shadow: 0px 6px 20px #00000091;
+}
+.location-box .time {
+  font-size: 50px;
+  opacity: 0.6;
+  font-weight: 300;
+  margin-top: 10px;
+  color: #fff;
+  text-align: center;
+}
+.weather-box {
+  text-align: center;
+}
+.weather-box .temp {
+  background-color: #1b1b1bd4;
+  color: #ffffffeb;
+
+  font-size: 100px;
+  font-weight: 200;
+  padding: 15px 25px;
+  text-shadow: 0px 6px 20px #000000;
+  border-radius: 5px;
+  margin: 25px auto;
+  display: inline-block;
+  position: relative;
+}
+
+.weather-box .temp:hover {
+  background-color: #000000d6;
+}
+.weather-box .weather {
+  font-size: 55px;
+  font-weight: 200;
+  color: #fff;
+  text-shadow: 0px 0px 20px #000000b5;
+}
+@media all and (min-width: 1120px) {
+  .search-box {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 45px;
+  }
+}
