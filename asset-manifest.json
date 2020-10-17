@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Simple-Weather-App-With-React/static/css/main.892a48ca.chunk.css",
+    "main.js": "/Simple-Weather-App-With-React/static/js/main.a88e3171.chunk.js",
+    "main.js.map": "/Simple-Weather-App-With-React/static/js/main.a88e3171.chunk.js.map",
+    "runtime-main.js": "/Simple-Weather-App-With-React/static/js/runtime-main.380915c4.js",
+    "runtime-main.js.map": "/Simple-Weather-App-With-React/static/js/runtime-main.380915c4.js.map",
+    "static/js/2.0c9235bd.chunk.js": "/Simple-Weather-App-With-React/static/js/2.0c9235bd.chunk.js",
+    "static/js/2.0c9235bd.chunk.js.map": "/Simple-Weather-App-With-React/static/js/2.0c9235bd.chunk.js.map",
+    "index.html": "/Simple-Weather-App-With-React/index.html",
+    "precache-manifest.575879abbd1f4698194c5555aa6bdd4f.js": "/Simple-Weather-App-With-React/precache-manifest.575879abbd1f4698194c5555aa6bdd4f.js",
+    "service-worker.js": "/Simple-Weather-App-With-React/service-worker.js",
+    "static/css/main.892a48ca.chunk.css.map": "/Simple-Weather-App-With-React/static/css/main.892a48ca.chunk.css.map",
+    "static/js/2.0c9235bd.chunk.js.LICENSE.txt": "/Simple-Weather-App-With-React/static/js/2.0c9235bd.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Simple-Weather-App-With-React/static/media/clear-night-warm-bg.4ed861d2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.380915c4.js",
+    "static/js/2.0c9235bd.chunk.js",
+    "static/css/main.892a48ca.chunk.css",
+    "static/js/main.a88e3171.chunk.js"
+  ]
+}
